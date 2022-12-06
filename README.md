@@ -24,7 +24,7 @@ It is reccomended that you have the following items before continuing.
 
 ### Step 1.)
   
-  Download this repostiory and navigate to NasaJobFinder directory.
+  Download this repostiory and navigate to NasaJobFinder directory via Terminal or Command Prompt.
   
 ### Step 2.)
  
