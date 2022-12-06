@@ -35,3 +35,8 @@ It is reccomended that you have the following items before continuing.
 ### Step 3.)
 
   Voila! The phone number you specified should start receiving text messages.
+
+
+## Important To Note
+
+* Within main.py, lines 105-107 filter the results to only include listings that are (1) in Florida, (2) virtual/remote work, and (3) for Master level students. Feel free to edit these lines to fit your needs.
