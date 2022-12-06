@@ -1,0 +1,4 @@
+# START CRON JOB
+@reboot /usr/local/bin/python /SCRIPT/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+*/15 * * * * /usr/local/bin/python /SCRIPT/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+# END CRON JOB

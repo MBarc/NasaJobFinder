@@ -1,0 +1,23 @@
+version: "3.3"
+services:
+  python:
+    container_name: nasajobfinder_main
+    build: ./python-container
+    env_file: ./python-container/main.env
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    links:
+      - mongodb
+  mongodb:
+    container_name: nasajobfinder_mongodb
+    hostname: nasajobfinder-database
+    build: ./mongodb-container
+    env_file: ./mongodb-container/mongodb.env
+    expose:
+      - 27017
+    ports:
+      - 8500:27017
+    tty: true
+    stdin_open: true
+    restart: always
