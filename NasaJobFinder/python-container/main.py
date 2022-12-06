@@ -75,7 +75,7 @@ try:
 
     # Scrolling to the bottom of the html table since it dynamically loads as you scroll down
     scroll = 0
-    while scroll < 20:  # this will scroll 3 times
+    while scroll < 20:
         driver.execute_script('arguments[0].scrollTop = arguments[0].scrollTop + arguments[0].offsetHeight;', scrollbar)
         scroll += 1
         time.sleep(2)
