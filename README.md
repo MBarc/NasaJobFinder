@@ -40,3 +40,4 @@ It is reccomended that you have the following items before continuing.
 ## Important To Note
 
 * Within main.py, lines 105-107 filter the results to only include listings that are (1) in Florida, (2) virtual/remote work, and (3) for Master level students. Feel free to edit these lines to fit your needs.
+  *  If you decide to edit the filters to where more results are presented, you must increase the value of 20 on line 78 within main.py. This is because the NASA website does not load all listings into the DOM and we must scroll down in order to generate the rest of the results.
