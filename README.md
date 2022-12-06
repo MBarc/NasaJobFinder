@@ -22,8 +22,6 @@ It is reccomended that you have the following items before continuing.
 * A Twilio-assigned phone number
 * A phone number where you would like to send notifications to
 
-**Note: You must have Docker and Docker-Compose installed before you start.**
-
 ### Step 1.)
   
   Download this repostiory and navigate to NasaJobFinder directory.
