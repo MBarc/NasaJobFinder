@@ -22,9 +22,11 @@ It is reccomended that you have the following items before continuing.
 * A Twilio-assigned phone number
 * A phone number where you would like to send notifications to
 
+After you grab that information, download this respository and navigate to NasaJobFinder/python-container. Open main.env and fill out the variable information where necessary.
+
 ### Step 1.)
   
-  Download this repostiory and navigate to NasaJobFinder directory via Terminal or Command Prompt.
+  Navigate to the NasaJobFinder directory via Terminal or Command Prompt.
   
 ### Step 2.)
  
