@@ -1,5 +1,5 @@
 # NasaJobFinder
-A docker container that will send you a notification to your cell phone when a new
+A docker container that will send you a notification to your cell phone when a new job listing appears on https://stemgateway.nasa.gov/public/s/explore-opportunities/internships
 
 
 ## How It Works
