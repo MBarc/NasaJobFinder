@@ -30,7 +30,7 @@ It is reccomended that you have the following items before continuing.
  
   Run the following command:
   
-    ''' docker compose up -d --build  '''
+    docker compose up -d --build
   
 ### Step 3.)
 
